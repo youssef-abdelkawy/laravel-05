@@ -24,3 +24,11 @@ php artisan migrate:rollback
 
 ## undo specific migration steps
 php artisan migrate:rollback
+
+
+## create a model
+php artisan make:model PostStatus
+
+## create a model with migration
+php artisan make:model PostStatus -m
+
