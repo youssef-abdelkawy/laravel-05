@@ -63,7 +63,7 @@ class PostController extends Controller
     }
 
     /**
-     * List all pendong posts.
+     * List all pending posts.
      */
     public function pending()
     {
